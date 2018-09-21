@@ -1,0 +1,7 @@
+﻿  main.cpp
+  Dresseur.cpp
+  Génération de code en cours...
+main.obj : error LNK2005: "public: __thiscall Dresseur::Dresseur(void)" (??0Dresseur@@QAE@XZ) déjà défini(e) dans Dresseur.obj
+main.obj : error LNK2005: "public: __thiscall Dresseur::~Dresseur(void)" (??1Dresseur@@QAE@XZ) déjà défini(e) dans Dresseur.obj
+main.obj : error LNK2005: "public: void __thiscall Dresseur::update(void)" (?update@Dresseur@@QAEXXZ) déjà défini(e) dans Dresseur.obj
+C:\Users\pierr\Desktop\PokeLikeProject\PokeLike\Debug\PokeLike.exe : fatal error LNK1169: un ou plusieurs symboles définis à différentes reprises ont été rencontrés
