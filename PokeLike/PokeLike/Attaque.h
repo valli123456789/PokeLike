@@ -11,6 +11,7 @@ string a_getnom();
 string a_gettype();
 int a_getpuissance();
 string a_getstataffectee();
+float a_getprecision();
 
 
 private :
