@@ -22,5 +22,9 @@ return a_puissance;
 }
 string Attaque :: a_getstataffectee()
 {
-return stataffectée;
+return a_stataffectée;
+}
+float Attaque :: a_getprecision
+{
+return a_precision;
 }
