@@ -24,7 +24,7 @@ string Attaque :: a_getstataffectee()
 {
 return a_stataffectée;
 }
-float Attaque :: a_getprecision
+float Attaque :: a_getprecision()
 {
 return a_precision;
 }
