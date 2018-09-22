@@ -19,7 +19,7 @@ int a_id;
 string a_nom;
 string type;
 int a_puissance;
-string a_stataffectee;
+string a_stataffectee;//def(spe), atk(spe), vit, precis, crit????
 float a_precision;
 //pourquoi ne pas créer une variable booléen par type d'attaque au lieu du typecode, niveau mémoire c'est un peu mieux qu'un gros int
 //genre un truc ainsi, qui serait stocké dans la database, au lieu du typecode,  des interrupteurs différents??? : 
