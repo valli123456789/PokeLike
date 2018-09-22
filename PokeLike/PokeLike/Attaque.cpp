@@ -8,11 +8,11 @@ Attaque::~Attaque()
 {
 }
 
-string Attaque :: a_getnom()
+std::string Attaque :: a_getnom()
 {
 return a_nom; 
 }
-string Attaque :: a_gettype()
+std::string Attaque :: a_gettype()
 {
 return a_type; 
 }
@@ -20,9 +20,9 @@ int Attaque :: a_getpuissance()
 {
 return a_puissance;
 }
-string Attaque :: a_getstataffectee()
+std::string Attaque :: a_getstataffectee()
 {
-return a_stataffectée;
+return a_stataffectee;
 }
 float Attaque :: a_getprecision()
 {
