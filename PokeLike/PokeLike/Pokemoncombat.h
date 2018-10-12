@@ -11,8 +11,8 @@ public :
 	int pc_getdefcombat();
 	int pc_getdefspecombat();
 	int pc_getvitcombat();
-	void pc_getdegats(Attaque lattaque, int *matricecoef[], Pokemoncombat attaquant);
-	void pc_setup(Attaque lattaque);
+	void pc_getdegats(Attaque lattaque, float matricecoef[17][17], Pokemoncombat attaquant);
+	void pc_setupself(Attaque lattaque);
 
 private :
 	int pc_atkcombat;
