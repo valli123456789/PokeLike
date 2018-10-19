@@ -12,7 +12,7 @@ public :
 	int pc_getdefspecombat();
 	int pc_getvitcombat();
 	void pc_getdegats(Attaque lattaque, float matricecoef[17][17], Pokemoncombat attaquant);
-	void pc_setupself(Attaque lattaque);
+	void pc_setup(Attaque lattaque);
 
 private :
 	int pc_atkcombat;

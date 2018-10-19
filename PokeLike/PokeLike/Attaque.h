@@ -28,7 +28,7 @@ private:
 	std::string a_stataffecteeoff;//def(spe), atk(spe), vit, precis, crit????
 	std::string a_stataffecteeset;
 	float a_precision;
-	int a_statut;//1 : degats simple, 2 un setupself, 3 setup ennemi, 4 = 1+2, 5 = 1+3
+	int a_statut;//1 : degats simple, 2 un setup, 3 = 1 et 2
 	//pourquoi ne pas créer une variable booléen par type d'attaque au lieu du typecode, niveau mémoire c'est un peu mieux qu'un gros int
 //genre un truc ainsi, qui serait stocké dans la database, au lieu du typecode,  des interrupteurs différents???
 	//peut-être faire une table de bool

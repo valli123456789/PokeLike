@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include "Attaque.h"
+#include <vector>
 //#include "Pokemoncombat.h"
 
 class Pokemon
@@ -22,6 +23,7 @@ public:
 	int p_getrare();
 	int p_getevdonne();
 	std::string p_gettypeev();
+	std::vector<sf::String> p_getnomattaques();
 	//friend class Attaque;
 
 protected:
@@ -39,4 +41,6 @@ protected:
 	int p_rare;
 	int p_evdonne;
 	std::string p_typeev;
+	//nouveau
+	std::vector<Attaque> p_attaques;
 };

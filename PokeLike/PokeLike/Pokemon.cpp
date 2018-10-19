@@ -62,3 +62,12 @@ int Pokemon::p_getnombretype()
 	return p_nombretype;
 }
 
+//nouveau
+std::vector<sf::String> Pokemon::p_getnomattaques()
+{
+	std::vector<sf::String> x;
+	for (int i = 0; i < 4; i++) {
+		x.push_back(p_attaques[i].a_getnom());
+	}
+	return x;
+}

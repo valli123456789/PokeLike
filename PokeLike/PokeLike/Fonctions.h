@@ -39,3 +39,4 @@ std::vector<bool> Collision(sf::FloatRect p1, sf::FloatRect p2) {
 	//std::cout << h1 << " " << b1 << " " << g1 << " " << d1 << " -- " << h2 << " " << b2 << " " << g2 << " " << d2 << " -- " << tab[0] << tab[1] << tab[2] << tab[3] << std::endl;
 	return tab;
 }
+
